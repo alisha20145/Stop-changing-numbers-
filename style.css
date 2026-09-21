@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #444;
+    font-size: 1.5rem;
+}
+
+#number-display {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 30px 0;
+    cursor: pointer;
+    color: #007BFF;
+    user-select: none;
+    background: #eef5ff;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+#number-display:hover {
+    background: #dbeaff;
+}
+
+.instructions {
+    font-style: italic;
+    color: #666;
+    margin: 0;
+}
